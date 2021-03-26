@@ -1,0 +1,17 @@
+﻿.reviews_block {
+	overflow: hidden;
+	position: relative;   
+}
+.reviews_block.hide {
+	height: 418px;
+}
+.reviews_block.hide:after{
+	content: "";
+	display: block;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+}

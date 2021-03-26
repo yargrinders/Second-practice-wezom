@@ -1,0 +1,66 @@
+.horizontal-slidermix {    
+	position: relative;    
+	height: 470px;    
+	overflow: hidden;
+}
+.slider-prevmix, .slider-nextmix {    
+	position: absolute;    
+	top: 50%;    
+	margin: -23px -20px 0 -20px;    
+	width: 16px;
+    height: 29px;    
+	background: url(../images/navi-hor.png) no-repeat;
+}
+.slider-prevmix {    
+	background-position: -11px -151px;    
+	left: 0;
+}
+.slider-nextmix {    
+	background-position: -69px -151px;    
+	right: 0;
+}
+ul.no-mark {    
+	margin: 0;    
+	padding: 0;
+}
+ul.sm-slider li {
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	position: relative;
+	width: 277px;
+	margin: 0 3px;
+}
+ul.sm-slider .slide-cont {    
+	display: block;    
+	margin: 0 15px;    
+	text-decoration: none;}
+.img-over_x95 {
+	display: block;    
+	margin: 0 auto 14px auto;    
+	height: 95px;
+}
+.link-namemix {
+	display: block;    
+	font-weight: 700;    
+	line-height: 24px;    
+	font-size: 18px;    
+	color: #3399cc;    
+	text-decoration: none;
+}
+.img-over_x95 img {
+	max-height: 95px;
+}
+.horizontal-slidermix0 {
+	position: relative;
+	z-index: 15;
+	margin: 0 0;
+}
+.horizontal-slidermix1 {
+	font-size: 36px;
+	font-weight: 500 !important;
+	line-height: 1.2em;
+	color: #2E70BF;
+	margin: 56px 0 34px 0;
+	text-align: center;
+}
